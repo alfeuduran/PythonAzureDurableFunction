@@ -1,5 +1,1 @@
-POST http://{host}/orchestrators/E2_BackupSiteContent
-Content-Type: application/json
-Content-Length: 20
-
-"/home/site/wwwroot"
+curl -H "Content-type: application/json" -d '{"root_directory":"/Users/alfeuduran/Documents/Microsoft/Estudo/CallCenterAnalyticsSample/JsonFiles"}' 'http://localhost:7071/api/orchestrators/E2_BackupSiteContent'
